@@ -1,3 +1,5 @@
+# Código do OpenCV veio daqui: https://www.geeksforgeeks.org/perspective-transformation-python-opencv/
+
 # import necessary libraries 
 
 import cv2 
