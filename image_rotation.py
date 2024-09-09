@@ -172,23 +172,9 @@ while rodando:
     # matriz da projeção do cubo
     proj = E @ cubo
 
-    # width da linha do cubo
-    w = 5
 
-    # desenho de todas as arestas
-    # pygame.draw.line(screen,COR_ARESTAS,(proj[0,0]/proj[3,0],proj[1,0]/proj[3,0]),(proj[0,1]/proj[3,1],proj[1,1]/proj[3,1]),width=w)
-    # pygame.draw.line(screen,COR_ARESTAS,(proj[0,1]/proj[3,1],proj[1,1]/proj[3,1]),(proj[0,3]/proj[3,3],proj[1,3]/proj[3,3]),width=w)
-    # pygame.draw.line(screen,COR_ARESTAS,(proj[0,3]/proj[3,3],proj[1,3]/proj[3,3]),(proj[0,2]/proj[3,2],proj[1,2]/proj[3,2]),width=w)
-    # pygame.draw.line(screen,COR_ARESTAS,(proj[0,0]/proj[3,0],proj[1,0]/proj[3,0]),(proj[0,2]/proj[3,2],proj[1,2]/proj[3,2]),width=w)
 
-    
-    # print(proj.T)
-    # print(proj[3])
-    # print(proj[0], proj[1])
-    # print(proj[0]/proj[3], proj[1]/proj[3])
-    print(proj/proj[3])
-
-    break
+    # break
 
 
     for pixel in proj.T:
